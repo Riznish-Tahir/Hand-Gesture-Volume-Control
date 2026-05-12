@@ -183,7 +183,7 @@ def main():
 
 
     
-    cap = cv2.VideoCapture("http://192.168.100.132:4747/video")
+    cap = cv2.VideoCapture("http://111.111.111.111:4747/video")
 
     cap.set(cv2.CAP_PROP_FRAME_WIDTH,  1280)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
